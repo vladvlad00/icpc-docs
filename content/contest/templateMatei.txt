@@ -1,0 +1,126 @@
+Ordered set
+
+#include <ext/pb_ds/assoc_container.hpp> // Common file
+#include <ext/pb_ds/tree_policy.hpp> // Including tree_order_statistics_node_update
+
+using namespace __gnu_pbds;
+
+typedef tree<
+int,
+null_type,
+less<int>,
+rb_tree_tag,
+tree_order_statistics_node_update>
+ordered_set;
+
+
+
+Random
+
+#include <algorithm>
+#include <chrono>
+#include <iostream>
+#include <random>
+#include <vector>
+
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+
+Turn stack DS into queue DS
+
+When provided a B update (add B), we just push it to the top of S.
+When provided an A
+update: If S already had A on top, we just pop. Otherwise, we begin the following process (which I'll call "fixing"): 
+pop from S and save all the elements we popped, until we popped an equal amount of A's and B's, 
+or until no A's remain in the stack; empty stack 
+or only B's remain (we can keep an index of this position in the stack, which will only increase). 
+Then, push back all the elements we popped, where we first push all B's, 
+then all A's (we use commutativity here).
+Since the top of S had a B, and we were asked to pop an existing A, after fixing, 
+the topmost element will be an A which we pop.
+
+
+struct queue_dsu
+{
+	int bottom;
+	vector<pos> act;
+	stack_dsu s;
+ 
+	void init(int n)
+	{
+		s.init(n);
+	}
+	void fmerge(int x, int y)
+	{
+		act.push_back(pos(x, y));
+		s.fmerge(x, y);
+	}
+ 
+	void move_bottom()
+	{
+		while(bottom<act.size() && act[bottom].t=='B')
+			bottom++;
+	}
+	void reverse_upd()
+	{
+		for(int i=0;i<act.size();i++)
+		{
+			s.pop();
+			act[i].t='A';
+		}
+ 
+		reverse(act.begin(), act.end());
+ 
+		for(int i=0;i<act.size();i++)
+            s.fmerge(act[i].x, act[i].y);
+ 
+        bottom=0;
+    }
+    void fix()
+    {
+        if(act.empty() || act.back().t=='A')
+            return;
+ 
+        move_bottom();
+        vector<pos> va, vb;
+        vb.push_back(act.back());
+        act.pop_back();
+        s.pop();
+ 
+        while(va.size()!=vb.size() && act.size()>bottom)
+        {
+            if(act.back().t=='A')
+                va.push_back(act.back());
+            else
+                vb.push_back(act.back());
+ 
+            act.pop_back();
+            s.pop();
+        }
+ 
+        reverse(va.begin(), va.end());
+        reverse(vb.begin(), vb.end());
+ 
+        for(auto it : vb)
+        {
+            act.push_back(it);
+            s.fmerge(it.x, it.y);
+        }
+        for(auto it : va)
+        {
+            act.push_back(it);
+            s.fmerge(it.x, it.y);
+        }
+        move_bottom();
+    }
+    void pop()
+    {
+        move_bottom();
+        if(bottom==act.size())
+            reverse_upd();
+ 
+        fix();
+        act.pop_back();
+        s.pop();
+    }
+};

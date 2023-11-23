@@ -1,0 +1,168 @@
+\contentsline {chapter}{\numberline {1}Contest}{1}%
+\ttl@starttoc {chapters@1}
+\contentsline {section}{\texttt { templateCristi.cpp }\hspace {0.2em}}{1}%
+\contentsline {section}{\texttt { templateMatei.txt }\hspace {0.2em}}{1}%
+\contentsline {section}{\texttt { gen.py }\hspace {0.2em}}{1}%
+\contentsline {section}{\texttt { troubleshoot.txt }\hspace {0.2em}}{1}%
+\contentsline {section}{\texttt { stresstest.sh }\hspace {0.2em}}{2}%
+\contentsline {chapter}{\numberline {2}Mathematics}{2}%
+\ttl@stoptoc {chapters@1}
+\ttl@starttoc {chapters@2}
+\contentsline {section}{\numberline {2.1}Equations}{2}%
+\contentsline {section}{\numberline {2.2}Recurrences}{2}%
+\contentsline {section}{\numberline {2.3}Trigonometry}{2}%
+\contentsline {section}{\numberline {2.4}Geometry}{2}%
+\contentsline {subsection}{\numberline {2.4.1}Triangles}{2}%
+\contentsline {subsection}{\numberline {2.4.2}Quadrilaterals}{2}%
+\contentsline {subsection}{\numberline {2.4.3}Spherical coordinates}{2}%
+\contentsline {section}{\numberline {2.5}Linear algebra}{3}%
+\contentsline {subsection}{\numberline {2.5.1}Matrix inverse}{3}%
+\contentsline {section}{\numberline {2.6}Derivatives/Integrals}{3}%
+\contentsline {section}{\numberline {2.7}Sums}{3}%
+\contentsline {section}{\numberline {2.8}Series}{3}%
+\contentsline {section}{\numberline {2.9}Probability theory}{3}%
+\contentsline {subsection}{\numberline {2.9.1}Discrete distributions}{3}%
+\contentsline {subsubsection}{Binomial distribution}{3}%
+\contentsline {subsubsection}{First success distribution}{3}%
+\contentsline {subsubsection}{Poisson distribution}{3}%
+\contentsline {subsection}{\numberline {2.9.2}Continuous distributions}{3}%
+\contentsline {subsubsection}{Uniform distribution}{3}%
+\contentsline {subsubsection}{Exponential distribution}{3}%
+\contentsline {subsubsection}{Normal distribution}{3}%
+\contentsline {section}{\numberline {2.10}Markov chains}{4}%
+\contentsline {chapter}{\numberline {3}Data structures}{4}%
+\ttl@stoptoc {chapters@2}
+\ttl@starttoc {chapters@3}
+\contentsline {section}{\texttt { binomialHeap.cpp }\hspace {0.2em}}{4}%
+\contentsline {section}{\texttt { bit.cpp }\hspace {0.2em}}{5}%
+\contentsline {section}{\texttt { cht.cpp }\hspace {0.2em}}{5}%
+\contentsline {section}{\texttt { convexhulltrick.cpp }\hspace {0.2em}}{5}%
+\contentsline {section}{\texttt { ConvexTree.h }\hspace {0.2em}}{5}%
+\contentsline {section}{\texttt { dynamicCHT.cpp }\hspace {0.2em}}{6}%
+\contentsline {section}{\texttt { FenwickTree.h }\hspace {0.2em}}{6}%
+\contentsline {section}{\texttt { FenwickTree2d.h }\hspace {0.2em}}{6}%
+\contentsline {section}{\texttt { implicitTreapsMaxValeriu.cpp }\hspace {0.2em}}{6}%
+\contentsline {section}{\texttt { LazySegmentTree.h }\hspace {0.2em}}{7}%
+\contentsline {section}{\texttt { OrderStatisticTree.h }\hspace {0.2em}}{7}%
+\contentsline {section}{\texttt { pairingHeap.cpp }\hspace {0.2em}}{7}%
+\contentsline {section}{\texttt { RMQ.h }\hspace {0.2em}}{8}%
+\contentsline {section}{\texttt { SegmentTree.h }\hspace {0.2em}}{8}%
+\contentsline {section}{\texttt { slopeTrick.cpp }\hspace {0.2em}}{8}%
+\contentsline {section}{\texttt { Treap.h }\hspace {0.2em}}{8}%
+\contentsline {section}{\texttt { UnionFind.h }\hspace {0.2em}}{9}%
+\contentsline {chapter}{\numberline {4}Numerical}{9}%
+\ttl@stoptoc {chapters@3}
+\ttl@starttoc {chapters@4}
+\contentsline {section}{\texttt { BerlekampMassey.h }\hspace {0.2em}}{9}%
+\contentsline {section}{\texttt { Polynomial.h }\hspace {0.2em}}{9}%
+\contentsline {section}{\texttt { PolyRoots.h }\hspace {0.2em}}{10}%
+\contentsline {section}{\texttt { PolyInterpolate.h }\hspace {0.2em}}{10}%
+\contentsline {section}{\texttt { LinearRecurrence.h }\hspace {0.2em}}{10}%
+\contentsline {section}{\texttt { FST.h }\hspace {0.2em}}{10}%
+\contentsline {section}{\texttt { Simplex.h }\hspace {0.2em}}{10}%
+\contentsline {section}{\texttt { SolveLinear.h }\hspace {0.2em}}{11}%
+\contentsline {chapter}{\numberline {5}Number theory}{11}%
+\ttl@stoptoc {chapters@4}
+\ttl@starttoc {chapters@5}
+\contentsline {section}{\numberline {5.1}General}{11}%
+\contentsline {subsection}{\texttt { mathValeriu.h }\hspace {0.2em}}{11}%
+\contentsline {subsection}{\texttt { nrPentagonaleValeriu.h }\hspace {0.2em}}{12}%
+\contentsline {subsection}{\texttt { sieve.cpp }\hspace {0.2em}}{12}%
+\contentsline {section}{\numberline {5.2}Modular arithmetic}{12}%
+\contentsline {subsection}{\texttt { ModInverse.h }\hspace {0.2em}}{12}%
+\contentsline {subsection}{\texttt { ModSum.h }\hspace {0.2em}}{12}%
+\contentsline {subsection}{\texttt { ModSqrt.h }\hspace {0.2em}}{12}%
+\contentsline {section}{\numberline {5.3}Number theoretic transform}{12}%
+\contentsline {subsection}{\texttt { NTT.h }\hspace {0.2em}}{12}%
+\contentsline {section}{\numberline {5.4}Fast Fourier Transform}{13}%
+\contentsline {subsection}{\texttt { fftValeriu.h }\hspace {0.2em}}{13}%
+\contentsline {section}{\numberline {5.5}Primality}{14}%
+\contentsline {subsection}{\texttt { MillerRabin.h }\hspace {0.2em}}{14}%
+\contentsline {subsection}{\texttt { factor.h }\hspace {0.2em}}{14}%
+\contentsline {section}{\numberline {5.6}Divisibility}{14}%
+\contentsline {subsection}{\texttt { euclid.h }\hspace {0.2em}}{14}%
+\contentsline {subsection}{\numberline {5.6.1}Bézout's identity}{14}%
+\contentsline {subsection}{\texttt { phiFunction.h }\hspace {0.2em}}{14}%
+\contentsline {section}{\numberline {5.7}Chinese remainder theorem}{15}%
+\contentsline {subsection}{\texttt { CRT.h }\hspace {0.2em}}{15}%
+\contentsline {section}{\numberline {5.8}Pythagorean Triples}{15}%
+\contentsline {section}{\numberline {5.9}Primes}{15}%
+\contentsline {section}{\numberline {5.10}Estimates}{15}%
+\contentsline {chapter}{\numberline {6}Combinatorial}{15}%
+\ttl@stoptoc {chapters@5}
+\ttl@starttoc {chapters@6}
+\contentsline {section}{\numberline {6.1}The Twelvefold Way}{15}%
+\contentsline {section}{\numberline {6.2}Permutations}{15}%
+\contentsline {subsection}{\numberline {6.2.1}Factorial}{15}%
+\contentsline {subsection}{\numberline {6.2.2}Cycles}{15}%
+\contentsline {subsection}{\numberline {6.2.3}Derangements}{15}%
+\contentsline {subsection}{\texttt { derangements.h }\hspace {0.2em}}{15}%
+\contentsline {subsection}{\numberline {6.2.4}Involutions}{15}%
+\contentsline {subsection}{\numberline {6.2.5}Stirling numbers of the first kind}{15}%
+\contentsline {subsection}{\numberline {6.2.6}Eulerian numbers}{16}%
+\contentsline {subsection}{\numberline {6.2.7}Burnside's lemma}{16}%
+\contentsline {section}{\numberline {6.3}Partitions and subsets}{16}%
+\contentsline {subsection}{\numberline {6.3.1}Partition function}{16}%
+\contentsline {subsection}{\numberline {6.3.2}Binomials}{17}%
+\contentsline {subsection}{\texttt { binomial.h }\hspace {0.2em}}{17}%
+\contentsline {subsection}{\texttt { binomialModPrime.h }\hspace {0.2em}}{17}%
+\contentsline {subsection}{\texttt { RollingBinomial.h }\hspace {0.2em}}{17}%
+\contentsline {subsection}{\texttt { multinomial.h }\hspace {0.2em}}{17}%
+\contentsline {subsection}{\numberline {6.3.3}Stirling numbers of the second kind}{17}%
+\contentsline {subsection}{\numberline {6.3.4}Bell numbers}{17}%
+\contentsline {subsection}{\numberline {6.3.5}Triangles}{17}%
+\contentsline {section}{\numberline {6.4}General purpose numbers}{17}%
+\contentsline {subsection}{\numberline {6.4.1}Catalan numbers}{17}%
+\contentsline {subsection}{\numberline {6.4.2}Super Catalan numbers}{17}%
+\contentsline {subsection}{\numberline {6.4.3}Motzkin numbers}{17}%
+\contentsline {subsection}{\numberline {6.4.4}Narayana numbers}{17}%
+\contentsline {subsection}{\numberline {6.4.5}Schröder numbers}{18}%
+\contentsline {chapter}{\numberline {7}Graph}{18}%
+\ttl@stoptoc {chapters@6}
+\ttl@starttoc {chapters@7}
+\contentsline {section}{\numberline {7.1}Network flow}{18}%
+\contentsline {subsection}{\texttt { Dinic.h }\hspace {0.2em}}{18}%
+\contentsline {subsection}{\texttt { flowWithLowerBound.cpp }\hspace {0.2em}}{18}%
+\contentsline {subsection}{\texttt { edmonsblossomValeriu.h }\hspace {0.2em}}{18}%
+\contentsline {subsection}{\texttt { minCostMaxFlow.h }\hspace {0.2em}}{19}%
+\contentsline {subsection}{\texttt { StoerWagnerValeriu.h }\hspace {0.2em}}{19}%
+\contentsline {subsection}{\texttt { MinCut.h }\hspace {0.2em}}{20}%
+\contentsline {section}{\numberline {7.2}Matching}{20}%
+\contentsline {subsection}{\texttt { matching.cpp }\hspace {0.2em}}{20}%
+\contentsline {subsection}{\texttt { WeightedMatching.h }\hspace {0.2em}}{20}%
+\contentsline {section}{\numberline {7.3}DFS algorithms}{20}%
+\contentsline {subsection}{\texttt { BiconnectedComponents.h }\hspace {0.2em}}{20}%
+\contentsline {subsection}{\texttt { 2sat.h }\hspace {0.2em}}{21}%
+\contentsline {section}{\numberline {7.4}Trees}{21}%
+\contentsline {subsection}{\texttt { centroid.cpp }\hspace {0.2em}}{21}%
+\contentsline {subsection}{\texttt { CompressTree.h }\hspace {0.2em}}{21}%
+\contentsline {subsection}{\texttt { HLD.h }\hspace {0.2em}}{21}%
+\contentsline {section}{\numberline {7.5}Matrix tree theorem}{22}%
+\contentsline {subsection}{\texttt { MatrixTree.h }\hspace {0.2em}}{22}%
+\contentsline {chapter}{\numberline {8}Strings}{22}%
+\ttl@stoptoc {chapters@7}
+\ttl@starttoc {chapters@8}
+\contentsline {section}{\texttt { ZFunction.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { Manacher.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { PalindromicTree.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { MinRotation.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { SuffixAutomaton.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { SuffixArray.h }\hspace {0.2em}}{22}%
+\contentsline {section}{\texttt { aho.cpp }\hspace {0.2em}}{23}%
+\contentsline {chapter}{\numberline {9}Various}{23}%
+\ttl@stoptoc {chapters@8}
+\ttl@starttoc {chapters@9}
+\contentsline {section}{\numberline {9.1}Misc. algorithms}{23}%
+\contentsline {subsection}{\texttt { AlphaBeta.h }\hspace {0.2em}}{23}%
+\contentsline {section}{\numberline {9.2}Dynamic programming}{23}%
+\contentsline {subsection}{\texttt { DivideAndConquerDP.h }\hspace {0.2em}}{23}%
+\contentsline {subsection}{\texttt { KnuthDP.h }\hspace {0.2em}}{23}%
+\contentsline {section}{\numberline {9.3}Debugging tricks}{23}%
+\contentsline {section}{\numberline {9.4}Optimization tricks}{23}%
+\contentsline {subsection}{\numberline {9.4.1}Bit hacks}{23}%
+\contentsline {subsection}{\numberline {9.4.2}Pragmas}{23}%
+\contentsline {subsection}{\texttt { rand.cpp }\hspace {0.2em}}{23}%
+\contentsline {subsection}{\texttt { Unrolling.h }\hspace {0.2em}}{23}%
+\ttl@stoptoc {chapters@9}
+\ttl@starttoc {chapters@10}
+\contentsfinish 
