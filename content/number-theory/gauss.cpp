@@ -1,5 +1,9 @@
-const ld EPS = 1e-9;
+/**
+ * Author: Cristi
+ * Description: ceva
+ */
 
+const ld EPS = 1e-9;
 /**
 	* eqs
 	*   list of equations, the last element of each row being the free term column of the system

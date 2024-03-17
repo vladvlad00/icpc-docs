@@ -1,4 +1,8 @@
 ///trebuie schimbata ca functia de solve, pt dynamic connectivity normal
+/**
+ * Author: Matei
+ * Description: ???
+ */
 
 #include <bits/stdc++.h>
  

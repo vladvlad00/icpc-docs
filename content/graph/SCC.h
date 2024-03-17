@@ -1,3 +1,8 @@
+/**
+ * Author: Cristi
+ * Description: wtf
+ */
+
 int comp[N];
 bool vis[N];
 vector<int> adj[N], adjt[N], ord;

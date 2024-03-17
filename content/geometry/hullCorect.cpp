@@ -1,3 +1,8 @@
+/**
+ * Author: Vlad
+ * Description: wtf
+ */
+
 struct pt {
     long long x, y;
 

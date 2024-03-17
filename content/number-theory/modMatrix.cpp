@@ -1,3 +1,8 @@
+/**
+ * Author: cineva
+ * Description: ceva
+ */
+
 int pw(int base, int exp, int mod) {
 	int res;
 	for(res = 1; exp; exp >>= 1) {

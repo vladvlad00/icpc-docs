@@ -1,3 +1,7 @@
+/**
+ * Author: Matei
+ * Description: ???
+ */
 struct stack_upd
 {
     int x, y;
