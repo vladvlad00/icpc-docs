@@ -1,6 +1,6 @@
 /**
  * Author: Cristi
- * Description: wtf
+ * Description: z[i] is the length of the longest string that is, at the same time, a prefix of s and a prefix of the suffix of s starting at i
  */
 int z[N];
 
@@ -16,5 +16,4 @@ void computeZFunction(const string &s) {
     }
   }
 }
-
 

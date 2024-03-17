@@ -1,7 +1,7 @@
 /**
  * Author: 
  * Source: Topcoder
- * Description: Computes Gomory-Hu tree of a graph
+ * Description: Computes Gomory-Hu tree of a graph (ans[i][j] = min cut intre i si j)
  * Time: O(V) calls of flow algorithm
  * Status: works
  */
