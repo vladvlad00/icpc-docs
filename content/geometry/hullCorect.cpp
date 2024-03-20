@@ -4,55 +4,32 @@
  */
 
 struct pt {
-    long long x, y;
+    long double x, y;
+
+    pt(long double x=0, long double y=0) : x(x), y(y){}
 
     bool operator<(const pt& b) const
     {
-        if (x != b.x)
+        if (abs(x - b.x) > EPS)
             return x < b.x;
         return y < b.y;
     }
+
+    bool operator==(pt p) const { return abs(x - p.x) < EPS && abs(y - p.y) < EPS; }
+    pt operator-(pt p) const { return pt(x - p.x, y - p.y); }
+    long double cross(pt p) const { return x * p.y - y * p.x; }
+    long double cross(pt a, pt b) const { return (a - *this).cross(b - *this); }
 };
 
-int orientation(pt a, pt b, pt c) {
-    long long v = a.x * (b.y - c.y) + b.x * (c.y - a.y) + c.x * (a.y - b.y);
-    if (v < 0) return -1; // clockwise
-    if (v > 0) return +1; // counter-clockwise
-    return 0;
-}
-
-bool cw(pt a, pt b, pt c, bool include_collinear) {
-    int o = orientation(a, b, c);
-    return o < 0 || (include_collinear && o == 0);
-}
-bool collinear(pt a, pt b, pt c) { return orientation(a, b, c) == 0; }
-
-void convex_hull(vector<pt>& a, bool include_collinear = false) {
-    if (a.size() <= 2)
-        return;
-
-    pt p0 = *min_element(a.begin(), a.end(), [](pt a, pt b) {
-        return make_pair(a.y, a.x) < make_pair(b.y, b.x);
-        });
-    sort(a.begin(), a.end(), [&p0](const pt& a, const pt& b) {
-        int o = orientation(p0, a, b);
-        if (o == 0)
-            return (p0.x - a.x) * (p0.x - a.x) + (p0.y - a.y) * (p0.y - a.y)
-            < (p0.x - b.x) * (p0.x - b.x) + (p0.y - b.y) * (p0.y - b.y);
-        return o < 0;
-        });
-    if (include_collinear) {
-        int i = (int)a.size() - 1;
-        while (i >= 0 && collinear(p0, a[i], a.back())) i--;
-        reverse(a.begin() + 1 + i, a.end());
-    }
-
-    vector<pt> st;
-    for (int i = 0; i < (int)a.size(); i++) {
-        while (st.size() > 1 && !cw(st[st.size() - 2], st.back(), a[i], include_collinear))
-            st.pop_back();
-        st.push_back(a[i]);
-    }
-
-    a = st;
+vector<pt> convex_hull(vector<pt> pts) {
+    if (pts.size() <= 1) return pts;
+    sort(pts.begin(), pts.end());
+    vector<pt> h(pts.size() + 1);
+    int s = 0, t = 0;
+    for (int it = 2; it--; s = --t, reverse(pts.begin(), pts.end()))
+        for (pt p : pts) {
+            while (t >= s + 2 && h[t - 2].cross(h[t - 1], p) <= EPS) t--;
+            h[t++] = p;
+        }
+    return { h.begin(), h.begin() + t - (t == 2 && h[0] == h[1]) };
 }

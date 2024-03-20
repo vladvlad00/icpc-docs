@@ -1,6 +1,15 @@
 /**
  * Author: Matei
- * Description: ???
+ * Description: When provided a B update (add B), we just push it to the top of S.
+ * When provided an A
+ * update: If S already had A on top, we just pop. Otherwise, we begin the following process (which I'll call "fixing"): 
+ * pop from S and save all the elements we popped, until we popped an equal amount of A's and B's, 
+ * or until no A's remain in the stack; empty stack 
+ * or only B's remain (we can keep an index of this position in the stack, which will only increase). 
+ * Then, push back all the elements we popped, where we first push all B's, 
+ * then all A's (we use commutativity here).
+ * Since the top of S had a B, and we were asked to pop an existing A, after fixing, 
+ * the topmost element will be an A which we pop.
  */
 struct stack_upd
 {
