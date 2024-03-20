@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  20 MAR 2024 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  20 MAR 2024 14:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -476,21 +476,16 @@ Chapter 2.
 Chapter 3.
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/convexhulltrick.cpp" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/data-structures/ConvexTree.h" -o kactl.tmp )...executed.
 
 (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/ConvexTree.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/data-structures/FenwickTree2d.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp [1
 
 ])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/FenwickTree2d.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/implicitTreapsMaxValeriu.cpp" -o kactl.tmp )...executed.
@@ -500,17 +495,17 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/LazySegmentTree.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [2])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/LineContainer.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [2])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/pairingHeap.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp [3])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/RMQ.h" -o kactl.tmp )...executed.
@@ -520,15 +515,10 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/slopeTrick.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [3])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/Treap.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/UnionFind.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
@@ -539,19 +529,7 @@ runsystem(python2 kactlprocessor.py -i "../content/data-structures/queueDSU.cpp"
 
 Package kactlpkg Warning:  queueDSU.cpp : Unknown command: update.  on input line 1.
 
-[4])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/dynamicConnectivity.cpp" -o kactl.tmp )...executed.
-
- (./kactl.tmp [5]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 86.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
-)) (../content/numerical/chapter.tex
+[4])) (../content/numerical/chapter.tex
 Chapter 4.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -569,12 +547,19 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/Polynomial.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [6])
+ (./kactl.tmp [5])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyRoots.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 23.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyInterpolate.h" -o kactl.tmp )...executed.
@@ -603,12 +588,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/IntDeterminant.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [7])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/SolveLinearBinary.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [6])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/MatrixInverse.h" -o kactl.tmp )...executed.
@@ -629,7 +614,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/mathValeriu.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp [8])
+(./kactl.tmp [7])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/sieve.cpp" -o kactl.tmp )...executed.
@@ -649,12 +634,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/NTT.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [9])
+ (./kactl.tmp [8])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/fftValeriu.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [10])
+ (./kactl.tmp [9])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/MillerRabin.h" -o kactl.tmp )...executed.
@@ -669,7 +654,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/gauss.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp [11])
+ (./kactl.tmp [10])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/euclid.h" -o kactl.tmp )...executed.
@@ -690,7 +675,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/combinatorial/derangements.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp) [12] [13]) (../content/graph/chapter.tex
+(./kactl.tmp) [11]) (../content/graph/chapter.tex
 Chapter 7.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -701,7 +686,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/Dinic.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [14])
+ (./kactl.tmp [12])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/flowWithLowerBound.cpp" -o kactl.tmp )...executed.
@@ -716,7 +701,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/MinCostMaxFlow.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [15])
+ (./kactl.tmp [13])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/MinCut.h" -o kactl.tmp )...executed.
@@ -736,12 +721,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/matching.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [14])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/WeightedMatching.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [16])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/Hungarian.cpp" -o kactl.tmp )...executed.
@@ -751,12 +736,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/BiconnectedComponents.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [15])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/2sat.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [17])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/centroid.cpp" -o kactl.tmp )...executed.
@@ -771,12 +756,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/HLD.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [16])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/LinkCutTree.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [18])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/MatrixTree.h" -o kactl.tmp )...executed.
@@ -793,7 +778,7 @@ runsystem(rm -f kactl.tmp)...executed.
 runsystem(python2 kactlprocessor.py -i "../content/geometry/lineDistance.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/LineDistance.pdf, id=88, 42.67899pt x 42.67899pt>
+<../content/geometry/LineDistance.pdf, id=81, 42.67899pt x 42.67899pt>
 File: ../content/geometry/LineDistance.pdf Graphic file (type pdf)
 <use ../content/geometry/LineDistance.pdf>
 Package pdftex.def Info: ../content/geometry/LineDistance.pdf  used on input line 12.
@@ -803,8 +788,8 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/SegmentDistance.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-<../content/geometry/SegmentDistance.pdf, id=89, 42.67899pt x 42.67899pt>
+ (./kactl.tmp [17 <../content/geometry/LineDistance.pdf>]
+<../content/geometry/SegmentDistance.pdf, id=118, 42.67899pt x 42.67899pt>
 File: ../content/geometry/SegmentDistance.pdf Graphic file (type pdf)
 <use ../content/geometry/SegmentDistance.pdf>
 Package pdftex.def Info: ../content/geometry/SegmentDistance.pdf  used on input line 15.
@@ -815,18 +800,18 @@ runsystem(rm -f kactl.tmp)...executed.
 runsystem(python2 kactlprocessor.py -i "../content/geometry/SegmentIntersection.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/SegmentIntersection.pdf, id=90, 42.67899pt x 42.67899pt>
+<../content/geometry/SegmentIntersection.pdf, id=119, 42.67899pt x 42.67899pt>
 File: ../content/geometry/SegmentIntersection.pdf Graphic file (type pdf)
 <use ../content/geometry/SegmentIntersection.pdf>
 Package pdftex.def Info: ../content/geometry/SegmentIntersection.pdf  used on input line 19.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
- [19 <../content/geometry/LineDistance.pdf> <../content/geometry/SegmentDistance.pdf> <../content/geometry/SegmentIntersection.pdf>])
+)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/lineIntersection.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/lineIntersection.pdf, id=193, 42.67899pt x 42.67899pt>
+<../content/geometry/lineIntersection.pdf, id=120, 42.67899pt x 42.67899pt>
 File: ../content/geometry/lineIntersection.pdf Graphic file (type pdf)
 <use ../content/geometry/lineIntersection.pdf>
 Package pdftex.def Info: ../content/geometry/lineIntersection.pdf  used on input line 15.
@@ -842,7 +827,7 @@ runsystem(rm -f kactl.tmp)...executed.
 runsystem(python2 kactlprocessor.py -i "../content/geometry/linearTransformation.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/LinearTransformation.pdf, id=194, 42.67899pt x 42.67899pt>
+<../content/geometry/LinearTransformation.pdf, id=121, 42.67899pt x 42.67899pt>
 File: ../content/geometry/LinearTransformation.pdf Graphic file (type pdf)
 <use ../content/geometry/LinearTransformation.pdf>
 Package pdftex.def Info: ../content/geometry/LinearTransformation.pdf  used on input line 14.
@@ -868,7 +853,7 @@ runsystem(rm -f kactl.tmp)...executed.
 runsystem(python2 kactlprocessor.py -i "../content/geometry/circleTangents.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/CircleTangents.pdf, id=195, 42.67899pt x 42.67899pt>
+<../content/geometry/CircleTangents.pdf, id=122, 42.67899pt x 42.67899pt>
 File: ../content/geometry/CircleTangents.pdf Graphic file (type pdf)
 <use ../content/geometry/CircleTangents.pdf>
 Package pdftex.def Info: ../content/geometry/CircleTangents.pdf  used on input line 13.
@@ -878,13 +863,13 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/commonTangents.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [18 <../content/geometry/SegmentDistance.pdf> <../content/geometry/SegmentIntersection.pdf> <../content/geometry/lineIntersection.pdf> <../content/geometry/LinearTransformation.pdf> <../content/geometry/CircleTangents.pdf>])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/circumcircle.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/Circumcircle.pdf, id=196, 42.67899pt x 42.67899pt>
+<../content/geometry/Circumcircle.pdf, id=292, 42.67899pt x 42.67899pt>
 File: ../content/geometry/Circumcircle.pdf Graphic file (type pdf)
 <use ../content/geometry/Circumcircle.pdf>
 Package pdftex.def Info: ../content/geometry/Circumcircle.pdf  used on input line 13.
@@ -894,7 +879,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/MinimumEnclosingCircle.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [20 <../content/geometry/lineIntersection.pdf> <../content/geometry/LinearTransformation.pdf> <../content/geometry/CircleTangents.pdf> <../content/geometry/Circumcircle.pdf>])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/insidePolygon.h" -o kactl.tmp )...executed.
@@ -920,7 +905,7 @@ runsystem(rm -f kactl.tmp)...executed.
 runsystem(python2 kactlprocessor.py -i "../content/geometry/PolygonCut.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/PolygonCut.pdf, id=331, 42.67899pt x 42.67899pt>
+<../content/geometry/PolygonCut.pdf, id=293, 42.67899pt x 42.67899pt>
 File: ../content/geometry/PolygonCut.pdf Graphic file (type pdf)
 <use ../content/geometry/PolygonCut.pdf>
 Package pdftex.def Info: ../content/geometry/PolygonCut.pdf  used on input line 16.
@@ -930,7 +915,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/Voronoi.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [19 <../content/geometry/Circumcircle.pdf> <../content/geometry/PolygonCut.pdf>])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/PolygonDiameter.h" -o kactl.tmp )...executed.
@@ -940,7 +925,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/PointInsideHull.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [21 <../content/geometry/PolygonCut.pdf>])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/LineHullIntersection.h" -o kactl.tmp )...executed.
@@ -959,12 +944,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/hullCorect.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [20])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/closestPair.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [22])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/kdTree.h" -o kactl.tmp )...executed.
@@ -984,12 +969,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/Point3D.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [21])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/3dHull.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [23])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/geometry/sphericalDistance.h" -o kactl.tmp )...executed.
@@ -1020,12 +1005,12 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/SuffixAutomaton.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp [22])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/SuffixArray.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [24])
+ (./kactl.tmp)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/AhoCorasickBicsi.h" -o kactl.tmp )...executed.
@@ -1041,7 +1026,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/various/IntervalContainer.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp)
+(./kactl.tmp [23])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/various/IntervalCover.h" -o kactl.tmp )...executed.
@@ -1051,7 +1036,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/various/TernarySearch.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [25]
+ (./kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \OT1/cmr/bx/n/7 Usage:  \OT1/pcr/m/n/7 int ind = TernarySearch(0,n-1,[&](int i)\OMS/cmsy/m/n/7 f\OT1/pcr/m/n/7 return
  []
@@ -1088,24 +1073,24 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/various/rand.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)) [26]
+ (./kactl.tmp)) [24]
 \tf@ptc=\write3
 \openout3 = `kactl.ptc'.
 
  (./kactl.aux) ) 
 Here is how much of TeX's memory you used:
- 9471 strings out of 483183
- 126049 string characters out of 5966292
- 1213295 words of memory out of 5000000
- 24100 multiletter control sequences out of 15000+600000
+ 9436 strings out of 483183
+ 125736 string characters out of 5966292
+ 1223295 words of memory out of 5000000
+ 24071 multiletter control sequences out of 15000+600000
  541472 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,64p,814b,1987s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,64p,814b,1985s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/vlad/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/vlad/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/vlad/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kactl.pdf (27 pages, 1911186 bytes).
+Output written on kactl.pdf (25 pages, 1907343 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
+ 462 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
